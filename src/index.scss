@@ -1,0 +1,36 @@
+@import './assets/css/mixins';
+
+:root {
+    /* variáveis que serão usadas em qualquer parte do projeto */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    @include marginBottom;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    @include marginBottom;
+}
+
+p {
+    @include marginBottom;
+}
+
+.container {
+    padding: 20px;
+}
