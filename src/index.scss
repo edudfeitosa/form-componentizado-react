@@ -11,12 +11,13 @@
 
 body {
     font-size: 1rem;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Arial, Verdana, Geneva, sans-serif;
     color: #333;
+    letter-spacing: -1px;
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 700;
     @include marginBottom;
 }
